@@ -19,14 +19,14 @@
 						<li class="siteHeaderlist sh_first"><span href="page1.php" class="siteHeaderanchor a1 p-a p1-a ">who we are</span></li>
 						<li class="siteHeaderlist"><a href="page2.php" class="siteHeaderanchor a2">What we do</a></li>
 						<li class="siteHeaderlist">
-						  <a class="siteHeaderanchor a3" data-toggle="dropdown" href="">
+						  <a class="siteHeaderanchor a3" data-toggle="dropdown" href="page3.php">
 						    Our Partners
 						  </a>
-						  <ul class="dropdown-menu subMenu1">
+						 <!--  <ul class="dropdown-menu subMenu1">
 						    <li><a href="page3_1.php">Sub section 1</a></li>
 						    <li><a href="page3_2.php">Sub section 2</a></li>
 						    <li><a href="page3_3.php">Sub section 3</a></li>
-						  </ul>
+						  </ul> -->
 						</li>
 						<li class="siteHeaderlist l4"><a href="page4.php" class="siteHeaderanchor a4">Contact us</a></li>
 						
@@ -40,15 +40,16 @@
 		<div class="container">
 			<div class="row contentSection2">
 				<div class="span12 cst21">
-
-					<h2 class="p1-heading"> Who we are</h2>
-					<h3> Section 1 </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-					<h3> Section 2 </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-					<h3> Section 3 </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-
+					<h4>Management Team</h4>
+					<p>
+						<strong>Mr. K.V. Madhan</strong> is a Chartered Accountant and the Managing Director of KVM Group of Companies. He has a wide experience of over 35 years in Taxation, Audit and Management Consultancy.
+						He has served as DGM – Taxation at Hyundai motor Company and the Executive Director of Ernst and Young. He is currently serving as a nominated member of the EOU and SEZ Council. He is involved in the drafting of Semi-Conductor Policy and SEZ Legislation.
+					</p>
+					<p>
+						<strong>Mr. Shreyas K Madhan.</strong>
+						Mr Shreyas is an architect and has a masters degree in Creativity Management from the U.K. He is the director for three entities under the KVM Group of companies. He is activily involved in the company's strategy development, idea generation and implementation. He heads the Projects department which liaises with the government for obtaining approvals and clearances.
+						Mr Shreyas leads the marketing, branding and promotions for KVM Academy. He is a partner with 'Celestial architects' – a team of Architects based out of Coimbatore who are actively into building residences, office spaces, factory sites and much more. He also is associated with 'Light bulb' with a media personality which is into creating concepts, ideas for start-ups and helps in building brand name through 'direct injection marketing'; Brand Building; Corporate films; Personality Development and so on..
+					</p>
 				</div>
 			</div>
 		</div>

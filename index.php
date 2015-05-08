@@ -21,14 +21,14 @@
 						<li class="siteHeaderlist sh_first"><a href="page1.php" class="siteHeaderanchor a1">who we are</a></li>
 						<li class="siteHeaderlist"><a href="page2.php" class="siteHeaderanchor a2">What we do</a></li>
 						<li class="siteHeaderlist">
-						  <a class="siteHeaderanchor a3" data-toggle="dropdown" href="">
+						  <a class="siteHeaderanchor a3" data-toggle="dropdown" href="page3.php">
 						    Our Partners
 						  </a>
-						  <ul class="dropdown-menu subMenu1">
+						 <!--  <ul class="dropdown-menu subMenu1">
 						    <li><a href="page3_1.php">Sub section 1</a></li>
 						    <li><a href="page3_2.php">Sub section 2</a></li>
 						    <li><a href="page3_3.php">Sub section 3</a></li>
-						  </ul>
+						  </ul> -->
 						</li>
 						<li class="siteHeaderlist"><a href="page4.php" class="siteHeaderanchor a4">Contact us</a></li>
 						
@@ -71,13 +71,14 @@
 	<div class="container">
 		<div class="row contentSection2">
 			<div class="span12 cst21">
-				<h3> Section 1 </h3>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-				<h3> Section 2 </h3>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-				<h3> Section 3 </h3>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-
+				<h4>KVM Trading</h4>
+				<p>
+					KVM Trading is a company which specializes in providing the exact spec of minerals needed for your business in order to offer a consistent and reliable supply of product to the trade. 
+					KVM Trading private limited, a company under the KVM group, is a company driven by quality. The vision is to be a reliable link between buyers and sellers in various sectors and fill the gap between demand and supply. The team of KVM comprises of motivated professionals as well as knowledgeable experts working towards providing the best solutions.
+					KVM Trading private limited is an authorised representative of Gulf mining group owned by Al Ruwaiya mining llc located in Thumrat, Oman. We are nominated for negotiation and sale of Gypsum and other minerals in India on behalf of Gulf mining group. Gulf mining group has interests in Gypsum, Chrome, Manganese, Marble, Limestone, Iron ore etc.
+					We focus on identifying the required quality and quantity  at competitive prices for buyers / sellers.
+					Our customers include Power plants, Chemical manufacturers, Cement Industries, Iron, Paper & Steel Industry, Textile manufacturers etc.
+			</p>
 			</div>
 		</div>
 	</div>

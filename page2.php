@@ -19,14 +19,14 @@
 						<li class="siteHeaderlist sh_first"><a href="page1.php" class="siteHeaderanchor a1">who we are</a></li>
 						<li class="siteHeaderlist"><span href="page2.php" class="siteHeaderanchor a2 p-a p2-a">What we do</span></li>
 						<li class="siteHeaderlist">
-						  <a class="siteHeaderanchor a3" data-toggle="dropdown" href="">
+						  <a class="siteHeaderanchor a3" data-toggle="dropdown" href="page3.php">
 						    Our Partners
 						  </a>
-						  <ul class="dropdown-menu subMenu1">
+						 <!--  <ul class="dropdown-menu subMenu1">
 						    <li><a href="page3_1.php">Sub section 1</a></li>
 						    <li><a href="page3_2.php">Sub section 2</a></li>
 						    <li><a href="page3_3.php">Sub section 3</a></li>
-						  </ul>
+						  </ul> -->
 						</li>
 						<li class="siteHeaderlist l4"><a href="page4.php" class="siteHeaderanchor a4">Contact us</a></li>
 						
@@ -40,15 +40,22 @@
 		<div class="container">
 			<div class="row contentSection2">
 				<div class="span12 cst21">
-
-					<h2 class="p2-heading"> What we do</h2>
-					<h3> Section 1 </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-					<h3> Section 2 </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-					<h3> Section 3 </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, accumsan rhoncus facilisis et, pretium non mauris. Sed tempor, enim in ultricies tristique, lorem lorem malesuada lectus, ac ultricies urna ante id diam. Donec odio est, accumsan at mollis sit amet, scelerisque vel metus. Suspendisse eleifend molestie leo, a feugiat mauris vehicula non. Phasellus nec magna a quam vestibulum sollicitudin eget sodales justo. Donec dolor mauris, fringilla nec venenatis sed, ornare non augue. Sed consectetur venenatis nulla, a laoreet velit adipiscing quis. Vestibulum porta massa vel tortor aliquam dignissim. Integer vel diam non arcu sagittis commodo.</p>
-
+					<h4>What we offer</h4>
+					<p>Coal, Gypsum, Chrome, Manganese, Marble, Limestone, Iron ore, Clear Burn - Diesel Additive etc.</p>
+					<h4>Industrial Verticals</h4>
+					<p>We service industries such as Power plants, Chemical and fertilizer manufacturers, Cement Industries, Iron, Paper & Steel Industry, Plaster of Paris manufacturers etc.</p>
+					<h4>KVM Trading Services the following industries:</h4>
+					<ul>
+						<li>Power Generation</li>
+						<li>General Mining Industries</li>
+						<li>Food and Beverage Processing</li>
+						<li>Steel and Metal</li>
+						<li>Motor Industry Products</li>
+						<li>Brick Making and Cement</li>
+						<li>Chemicals and Fertilizers</li>
+						<li>Farming and Nurseries</li>
+						<li>POP and Gypsum Board Makers </li>
+					</ul>
 				</div>
 			</div>
 		</div>
