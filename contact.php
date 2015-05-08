@@ -36,7 +36,7 @@ if(isset($_POST['lname']))
 $mail_subject = 'New Enquiry - Digital Chakra';
 $mail_message = 'Name : '.$fname.''.$lname.'<br />'.'Email: '.$email.'<br />Subject: '.$subject.'<br />Message: '.$message.'<br />';
 //if (smtpmailer('queries@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
-if (smtpmailer('aditya@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
+if (smtpmailer('mani.r@mtlabs.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
 {
 	$mail_sent=1;
 }
@@ -56,25 +56,26 @@ else
 echo json_encode($result);
 
 function smtpmailer($to, $from, $from_name, $subject, $body) { 
-	global $error;
-	$mail = new PHPMailer();  // create a new object
-	$mail->IsSMTP(); // enable SMTP
-	$mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
-	$mail->SMTPAuth = true;  // authentication enabled
-	$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
-	$mail->Host = 'smtp.gmail.com';
-	$mail->Port = 465; 
-	$mail->Username = 'webmaster.digitalchakra@gmail.com';  
-	$mail->Password = '#digitalchakra123';           
-	$mail->SetFrom($from, $from_name);
-	$mail->IsHTML(true);
-	$mail->Subject = $subject;
-	$mail->Body = $body;
-	$mail->AddAddress($to);
-	if(!$mail->Send()) {
-		return false;
-	} else {
-		return true;
-	}
+	mail($to, $subject, $message);
+	// global $error;
+	// $mail = new PHPMailer();  // create a new object
+	// $mail->IsSMTP(); // enable SMTP
+	// $mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
+	// $mail->SMTPAuth = true;  // authentication enabled
+	// $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
+	// $mail->Host = 'smtp.gmail.com';
+	// $mail->Port = 465; 
+	// $mail->Username = 'webmaster.digitalchakra@gmail.com';  
+	// $mail->Password = '#digitalchakra123';           
+	// $mail->SetFrom($from, $from_name);
+	// $mail->IsHTML(true);
+	// $mail->Subject = $subject;
+	// $mail->Body = $body;
+	// $mail->AddAddress($to);
+	// if(!$mail->Send()) {
+	// 	return false;
+	// } else {
+	// 	return true;
+	// }
 }
 ?>

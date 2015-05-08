@@ -59,7 +59,7 @@ KVM Trading private limited is an authorised representative of Gulf mining group
 		<div class="container">
 			<div class="row siteFooter">
 				<div class="span5"> 
-      				<p>© Copyright KVM Trading 2013. All Rights reserved.</p>
+      				<p>© Copyright KVM Trading <?php echo date('Y') ?>. All Rights reserved.</p>
       			 </div>
       			 <div class="span7">
       			 	<div class="dcGo">
