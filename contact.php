@@ -36,14 +36,14 @@ if(isset($_POST['lname']))
 $mail_subject = 'New Enquiry - Digital Chakra';
 $mail_message = 'Name : '.$fname.''.$lname.'<br />'.'Email: '.$email.'<br />Subject: '.$subject.'<br />Message: '.$message.'<br />';
 //if (smtpmailer('queries@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
-if (smtpmailer('mani.r@mtlabs.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
+if (smtpmailer('shreyasmadhan@gmail.com ',$mail_subject, $mail_message))
 {
 	$mail_sent=1;
 }
 
 
 $query="INSERT INTO `tbl_contact` (`fname`, `lname`, `email`, `message`, `subject`, `mail_sent`) VALUES ('$fname', '$lname', '$email', '$message', '$subject', '$mail_sent')";
-echo $query;
+
 if(mysql_query($query))
 {
 	$result['success']=1;
@@ -55,8 +55,14 @@ else
 }
 echo json_encode($result);
 
-function smtpmailer($to, $from, $from_name, $subject, $body) { 
-	mail($to, $subject, $message);
+function smtpmailer($to,$subject, $body) { 
+	// Always set content-type when sending HTML email
+	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+	// More headers
+	$headers .= 'From: <wp@kvmtrading.com>' . "\r\n";
+	mail($to, $subject, $body,$headers);
 	// global $error;
 	// $mail = new PHPMailer();  // create a new object
 	// $mail->IsSMTP(); // enable SMTP
