@@ -46,7 +46,7 @@
 						<img src="images/c1.png" alt="KVM Trading logo">
 					</div>
 					<div class="subContent">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
 					</div>
 				</div>
 				<div class="span4 cst12">
@@ -54,7 +54,7 @@
 						<img src="images/c2.png" alt="KVM Trading logo">
 					</div>
 					<div class="subContent">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A feugiat mauris vehicula non.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A feugiat mauris vehicula non.</p> -->
 					</div>
 				</div>
 				<div class="span4 cst13">
@@ -62,7 +62,7 @@
 						<img src="images/c3.png" alt="KVM Trading logo">
 					</div>
 					<div class="subContent">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta massa vel tortor aliquam dignissim.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta massa vel tortor aliquam dignissim.</p> -->
 					</div>
 				</div>
 			</div>
